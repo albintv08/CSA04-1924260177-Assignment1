@@ -14,23 +14,23 @@ gcc --version
 
 ## Compile
 ```bash
-gcc -std=c11 -Wall -Wextra -O2 Task06/copy_file.c -o Task06/copy_file
+gcc -std=c11 -Wall -Wextra -O2 Task06/copy_bench.c -o Task06/copy_bench
 gcc -std=c11 -Wall -Wextra -O2 Task07/process_control.c -o Task07/process_control
-gcc -std=c11 -Wall -Wextra -O2 -pthread Task10/process_vs_thread.c -o Task10/process_vs_thread
+gcc -std=c11 -Wall -Wextra -O2 -pthread Task10/process_thread_bench.c -o Task10/process_thread_bench
 ```
 
 ## Run
 ```bash
-./Task06/copy_file
+./Task06/copy_bench
 ./Task07/process_control
-./Task10/process_vs_thread
+./Task10/process_thread_bench
 ```
 
 ## Trace and timing
 ```bash
 sudo apt-get update && sudo apt-get install -y strace
-strace -c ./Task06/copy_file
-/usr/bin/time -v ./Task06/copy_file
+strace -c ./Task06/copy_bench
+/usr/bin/time -v ./Task06/copy_bench
 /usr/bin/time -v ./Task07/process_control
 ```
 
