@@ -1,0 +1,9 @@
+=== PROCESS BENCHMARK ===
+Processes created: 1000
+Creation and completion time: 0.222638 seconds
+Child maximum resident memory: 128 KB
+
+=== THREAD BENCHMARK ===
+Threads created: 1000
+Creation and completion time: 0.069469 seconds
+Process maximum resident memory: 9984 KB
