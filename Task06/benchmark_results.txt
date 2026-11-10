@@ -1,0 +1,5 @@
+Buffer:     1 bytes | Read calls: 1048576 | Time: 0.738422 seconds
+Buffer:    64 bytes | Read calls:   16384 | Time: 0.011752 seconds
+Buffer:   512 bytes | Read calls:    2048 | Time: 0.001397 seconds
+Buffer:  4096 bytes | Read calls:     256 | Time: 0.000183 seconds
+Buffer: 16384 bytes | Read calls:      64 | Time: 0.000070 seconds
