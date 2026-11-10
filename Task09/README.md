@@ -187,5 +187,4 @@ DMA is clearly more efficient for transferring large MRI images. Interrupt-drive
 
 ## 7. Conclusion
 
-A smart hospital requires an efficient memory hierarchy and suitable I/O methods. MRI images should use RAM buffers and SSD-based storage for active processing, patient records should use SSD-backed databases with RAM caching, and bedside monitor readings should be processed locally with low latency. Interrupt-driven I/O is appropriate for monitor events, while DMA is the best choice for large MRI image transfers. These choices improve system speed, reduce CPU overhead and su
-pport reliable hospital operations.
+A smart hospital requires an efficient memory hierarchy and suitable I/O methods. MRI images should use RAM buffers and SSD-based storage for active processing, patient records should use SSD-backed databases with RAM caching, and bedside monitor readings should be processed locally with low latency. Interrupt-driven I/O is appropriate for monitor events, while DMA is the best choice for large MRI image transfers. These choices improve system performance, reduce CPU overhead and support reliable hospital operations.
