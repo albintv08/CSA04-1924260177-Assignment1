@@ -1,0 +1,47 @@
+18091 execve("./process_control", ["./process_control"], 0x7ffee0cfd408 /* 93 vars */) = 0
+18091 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fda83280a10) = 18092
+18091 wait4(18092,  <unfinished ...>
+18092 execve("/vscode/bin/linux-x64/c4453f8ea430795f941c1b2ff6c9321135a74a02/bin/remote-cli/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/home/codespace/.local/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/rubies/current/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/home/codespace/.dotnet/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/home/codespace/nvm/current/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/home/codespace/.php/current/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/home/codespace/.python/current/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/home/codespace/java/current/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/home/codespace/.ruby/current/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/home/codespace/.local/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/python/current/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/py-utils/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/jupyter/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/oryx/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/go/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/go/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/sdkman/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/sdkman/candidates/java/current/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/sdkman/candidates/gradle/current/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/sdkman/candidates/maven/current/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/sdkman/candidates/ant/current/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/share/rbenv/shims/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/share/rbenv/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/rubies/current/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/php/current/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/opt/conda/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/share/nvm/versions/node/v24.22.2/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/hugo/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/sbin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/local/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/sbin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = -1 ENOENT (No such file or directory)
+18092 execve("/usr/bin/expr", ["expr", "6", "*", "7"], 0x7ffe3e42fda8 /* 93 vars */) = 0
+18092 exit_group(0)                     = ?
+18092 +++ exited with 0 +++
+18091 <... wait4 resumed>[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 18092
+18091 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=18092, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+18091 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fda83280a10) = 18093
+18091 wait4(18093,  <unfinished ...>
+18093 exit_group(3)                     = ?
+18093 +++ exited with 3 +++
+18091 <... wait4 resumed>[{WIFEXITED(s) && WEXITSTATUS(s) == 3}], 0, NULL) = 18093
+18091 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=18093, si_uid=1000, si_status=3, si_utime=0, si_stime=0} ---
+18091 exit_group(0)                     = ?
+18091 +++ exited with 0 +++
